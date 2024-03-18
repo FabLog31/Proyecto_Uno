@@ -158,6 +158,17 @@ h1 {
     height: auto;
     object-fit: fill;
 }
+.Idiomas {
+    color: darkkhaki;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.Idioma {
+    color: darkgoldenrod;
+    list-style:none;
+    padding: 0;
+    margin-right: 20px;
+}
 
 .LinkedIn {
     color: darkkhaki;
@@ -232,12 +243,23 @@ td {
 
 #GOW {
     margin-top: 5px;
+    margin-bottom: 30px;
     border-radius: 25%;
     width: 136px;
     height: auto;
     object-fit: cover;
 }
 
+.parrafo3 {
+    color: rgb(19, 45, 85) ;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.lista2 {
+    color: rgb(19, 45, 85);
+    padding: 0;
+    margin-right: 20px;
+}
 /* videos */ 
 
 .Videos {
