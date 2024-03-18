@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+
+body {
+    margin: 25px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+/* ESTILO DEL MENU */
+header {
+    border-style: solid;
+    border-color: rgb(19, 45, 85);
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 100%;
+    height: auto;
+}
+
+.menu {
+    background-color: darkgoldenrod;
+    padding: 10px 0;
+}
+
+.menu-cont {
+    text-align: center;
+}
+
+.menu-item {
+
+    color: rgb(19, 45, 85);
+    text-decoration: none;
+    padding: 5px 0px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.menu-item:hover {
+    background-color: rgb(19, 45, 85);
+    color: #fff;
+    text-decoration: none;
+}
+
+.material-symbols-outlined {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 27px;
+    margin-right: 27px;
+    color: darkgoldenrod;
+    font-variation-settings:
+        'FILL' 350px,
+        'wght' 400,
+        'GRAD' 35,
+        'opsz' 24
+}
+
+figure {
+    width: 365px;
+    margin: auto
+}
+
+.circulo-yo {
+    border-radius: 25%;
+    width: 365px;
+    height: 365px;
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(19, 45, 85);
+}
+
+.parrafo1 {
+    color: rgb(19, 45, 85);
+    border-style: dashed;
+    border-color: darkgoldenrod;
+    background-color: darkkhaki;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Perfil Profesional */
+
+.caja1 {
+    background-color: rgb(19, 45, 85);
+    margin: auto;
+    border-style: none;
+    border-radius: 20%;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil-profesional {
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+.parrafo2 {
+    color: darkkhaki;
+}
+
+.lista1 {
+    color: darkgoldenrod;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.lista1 li {
+    margin-right: 20px;
+}
+
+.item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.item span {
+    display: block;
+}
+
+#scotia {
+    border-radius: 20%;
+    width: 106px;
+    height: auto;
+    object-fit: cover;
+}
+
+#spotify {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+
+#TIS {
+    border-radius: 20%;
+    width: 85px;
+    height: auto;
+    object-fit: fill;
+}
+
+.LinkedIn {
+    color: darkkhaki;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#linkedin {
+    border-radius: 20%;
+    width: 45px;
+    height: auto;
+    object-fit: fill;
+}
+
+/* Quien Soy */
+
+.caja2 {
+    background-color: darkkhaki;
+    margin: auto;
+    border-style: none;
+    border-radius: 20%;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quien-soy {
+    color: rgb(19, 45, 85);
+}
+
+.parrafo-inicio {
+    color: rgb(19, 45, 85);
+}
+
+#resaltado {
+    background-color: darkgoldenrod;
+    color: white
+}
+
+.moto {
+    width: 206px;
+    height: auto;
+    object-fit: cover;
+}
+
+.parrafo-inicio2 {
+    color: rgb(19, 45, 85);
+}
+
+.tabla1 {
+    width: 50%;
+    color: darkgoldenrod;
+    margin-bottom: 5px;
+}
+
+table,
+th,
+td {
+    border: 1px dashed darkkhaki;
+    border-collapse: separate;
+}
+
+th,
+td {
+    background-color: rgb(19, 45, 85);
+}
+
+#GOW {
+    margin-top: 5px;
+    border-radius: 25%;
+    width: 136px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* videos */ 
+
+.Videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Alinea el texto al centro */
+}
+.video {
+    color: darkgoldenrod;
+}
+.descripcion-video {
+    margin-top: 20px; /* Espacio entre el título y el párrafo */
+}
+
+.definido-video {
+    margin-top: 20px; /* Espacio entre cada vídeo y su descripción */
+}
+
+.definido-video dt {
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+.definido-video dd {
+    margin-left: 0;
+    margin-bottom: 10px;
+    color: rgb(19, 45, 85);
+}
+
+iframe {
+    margin-top: 20px; /* Espacio entre cada vídeo */
+    max-width: 100%;
+}
+
+/* Contactos */ 
+
+.Contacto-f {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Alinea el texto al centro */
+}
+.contactos {
+    color: rgb(19, 45, 85);
+    text-align: center;
+    margin-bottom: 5px;
+}
+#Facebook {
+    border-radius: 20%;
+    margin-top: 10px ;
+    width: 100px;
+    height: auto;
+    object-fit: fill;
+}
+#Instagram {
+    border-radius: 20%;
+    width: 70px;
+    height: auto;
+    object-fit: fill;
+}
+
+footer {
+    border-style: solid;
+    border-color: rgb(19, 45, 85);
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 100%;
+    height: auto;
+}
+
+#final {
+    display: flex;
+    margin-top: 5px;
+    color: rgb(19, 45, 85);
+    text-align: center;
+    justify-content: center;
+}
