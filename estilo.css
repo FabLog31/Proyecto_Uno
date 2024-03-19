@@ -1,4 +1,21 @@
+@media screen and (max-width: 767px){
+    figure {
+        max-width: 90%; /* Limitar el ancho al 90% del tamaño de la pantalla para dispositivos móviles */
+    }
+
+    .circulo-yo {
+        max-width: 90%; /* Limitar el ancho al 90% del tamaño de la pantalla para dispositivos móviles */
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1023px){}
+@media screen and (min-width: 1024px){}
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
 body {
     margin: 25px;
@@ -9,32 +26,31 @@ body {
 
 #contenedor {
     display: flex;
+    font-size: 30px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 17px;
     height: 5vh;
 }
 
 /* ESTILO DEL MENU */
 header {
     border-style: solid;
-    border-color: rgb(19, 45, 85);
+    border-radius: 15%;
+    border-color: darkgoldenrod;
+    padding: 10px 0;
+    background-color: rgb(19, 45, 85);
     font-family: 'Montserrat Alternates', sans-serif;
     width: 100%;
     height: auto;
 }
-
-.menu {
-    background-color: darkgoldenrod;
-    padding: 10px 0;
-}
-
 .menu-cont {
     text-align: center;
 }
 
 .menu-item {
-
-    color: rgb(19, 45, 85);
+    color: darkgoldenrod;
+    font-size: 30px;
     text-decoration: none;
     padding: 5px 0px;
     border-radius: 5px;
@@ -46,44 +62,46 @@ header {
 }
 
 .menu-item:hover {
-    background-color: rgb(19, 45, 85);
-    color: #fff;
+    background-color: darkgoldenrod;
+    color: rgb(19, 45, 85);
     text-decoration: none;
 }
 
+/* Estrellas */ 
+.estrellas {
+    font-size: 30px; 
+}
 .material-symbols-outlined {
-    margin-top: 3px;
-    margin-bottom: 3px;
-    margin-left: 27px;
-    margin-right: 27px;
+    display: block;
+    width: 50px;
+    height: 10px;
+    margin: 0 100px; 
     color: darkgoldenrod;
-    font-variation-settings:
-        'FILL' 350px,
-        'wght' 400,
-        'GRAD' 35,
-        'opsz' 24
 }
 
 figure {
     width: 365px;
-    margin: auto
+    margin: auto;
+    text-align: center; 
 }
-
 .circulo-yo {
-    border-radius: 25%;
-    width: 365px;
-    height: 365px;
+    border-radius: 25%; 
+    width: 310px;
+    height: 310px;
     object-fit: cover;
+    display: block; 
+    margin: 0 auto; 
 }
 
 h1 {
     text-align: center;
     font-size: 30px;
     color: rgb(19, 45, 85);
-}
+} 
 
 .parrafo1 {
     color: rgb(19, 45, 85);
+    font-size: 23px;
     border-style: dashed;
     border-color: darkgoldenrod;
     background-color: darkkhaki;
@@ -109,15 +127,19 @@ h1 {
 }
 
 .perfil-profesional {
+    font-size: 30px;
     color: darkgoldenrod;
     text-align: center;
 }
 
 .parrafo2 {
+    font-size: 23px;
     color: darkkhaki;
 }
 
 .lista1 {
+    margin-top: 10px;
+    font-size: 15px;
     color: darkgoldenrod;
     display: flex;
     list-style: none;
@@ -126,10 +148,12 @@ h1 {
 }
 
 .lista1 li {
+    margin-top: 5px;
     margin-right: 20px;
 }
 
 .item img {
+
     display: block;
     margin: 0 auto;
 }
@@ -143,6 +167,7 @@ h1 {
     width: 106px;
     height: auto;
     object-fit: cover;
+    margin-bottom: 15px;
 }
 
 #spotify {
@@ -150,6 +175,7 @@ h1 {
     width: 150px;
     height: auto;
     object-fit: cover;
+    margin-bottom: 14px;
 }
 
 #TIS {
@@ -157,14 +183,17 @@ h1 {
     width: 85px;
     height: auto;
     object-fit: fill;
+    margin-bottom: 14px;
 }
 .Idiomas {
     color: darkkhaki;
+    font-size: 23px;
     text-align: center;
     margin-bottom: 5px;
 }
 .Idioma {
     color: darkgoldenrod;
+    font-size: 20px;
     list-style:none;
     padding: 0;
     margin-right: 20px;
@@ -172,6 +201,7 @@ h1 {
 
 .LinkedIn {
     color: darkkhaki;
+    font-size: 23px;
     text-align: center;
     margin-bottom: 5px;
 }
@@ -201,10 +231,12 @@ h1 {
 }
 
 .quien-soy {
+    font-size: 30px;
     color: rgb(19, 45, 85);
 }
 
 .parrafo-inicio {
+    font-size: 23px;
     color: rgb(19, 45, 85);
 }
 
@@ -220,6 +252,7 @@ h1 {
 }
 
 .parrafo-inicio2 {
+    font-size: 23px;
     color: rgb(19, 45, 85);
 }
 
@@ -245,17 +278,19 @@ td {
     margin-top: 5px;
     margin-bottom: 30px;
     border-radius: 25%;
-    width: 136px;
+    width: 236px;
     height: auto;
     object-fit: cover;
 }
 
 .parrafo3 {
+    font-size: 23px;
     color: rgb(19, 45, 85) ;
     text-align: center;
     margin-bottom: 5px;
 }
 .lista2 {
+    font-size: 20px;
     color: rgb(19, 45, 85);
     padding: 0;
     margin-right: 20px;
@@ -270,9 +305,11 @@ td {
     text-align: center; /* Alinea el texto al centro */
 }
 .video {
+    font-size: 30px;
     color: darkgoldenrod;
 }
 .descripcion-video {
+    font-size: 23px;
     margin-top: 20px; /* Espacio entre el título y el párrafo */
 }
 
@@ -281,6 +318,7 @@ td {
 }
 
 .definido-video dt {
+    font-size: 23px;
     font-weight: bold;
     color: darkgoldenrod;
 }
@@ -305,10 +343,15 @@ iframe {
     justify-content: center; /* Centra verticalmente */
     text-align: center; /* Alinea el texto al centro */
 }
-.contactos {
+.contactoT {
     color: rgb(19, 45, 85);
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;    .
+}
+.contactos {
+    font-size: 23px;
+    color: darkgoldenrod;
+
 }
 #Facebook {
     border-radius: 20%;
@@ -326,7 +369,10 @@ iframe {
 
 footer {
     border-style: solid;
-    border-color: rgb(19, 45, 85);
+    border-radius: 15%;
+    border-color: darkgoldenrod;
+    padding: 10px 0;
+    background-color: rgb(19, 45, 85);
     font-family: 'Montserrat Alternates', sans-serif;
     width: 100%;
     height: auto;
@@ -334,7 +380,7 @@ footer {
 
 #final {
     display: flex;
-    margin-top: 5px;
+    margin-top: 30px;
     color: rgb(19, 45, 85);
     text-align: center;
     justify-content: center;
