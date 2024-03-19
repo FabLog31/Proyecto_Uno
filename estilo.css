@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
 @media screen and (max-width: 767px){
     figure {
         max-width: 90%; /* Limitar el ancho al 90% del tamaño de la pantalla para dispositivos móviles */
@@ -9,8 +10,6 @@
 }
 @media screen and (min-width: 768px) and (max-width:1023px){}
 @media screen and (min-width: 1024px){}
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
 *,
 *::before,
 *::after {
@@ -22,15 +21,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat Alternates', sans-serif;
-}
-
-#contenedor {
-    display: flex;
-    font-size: 30px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 17px;
-    height: 5vh;
 }
 
 /* ESTILO DEL MENU */
@@ -112,15 +102,12 @@ h1 {
 /* Perfil Profesional */
 
 .caja1 {
+    padding: 50px;
     background-color: rgb(19, 45, 85);
     margin: auto;
     border-style: none;
     border-radius: 20%;
     text-align: center;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,18 +140,17 @@ h1 {
 }
 
 .item img {
-
-    display: block;
+    display: flex;
     margin: 0 auto;
 }
 
 .item span {
-    display: block;
+    display: flex;
 }
 
 #scotia {
     border-radius: 20%;
-    width: 106px;
+    width: 200px;
     height: auto;
     object-fit: cover;
     margin-bottom: 15px;
@@ -172,7 +158,7 @@ h1 {
 
 #spotify {
     border-radius: 50%;
-    width: 150px;
+    width: 280px;
     height: auto;
     object-fit: cover;
     margin-bottom: 14px;
@@ -180,7 +166,7 @@ h1 {
 
 #TIS {
     border-radius: 20%;
-    width: 85px;
+    width: 160px;
     height: auto;
     object-fit: fill;
     margin-bottom: 14px;
@@ -216,15 +202,12 @@ h1 {
 /* Quien Soy */
 
 .caja2 {
+    padding: 50px;
     background-color: darkkhaki;
     margin: auto;
     border-style: none;
     border-radius: 20%;
     text-align: center;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -246,7 +229,7 @@ h1 {
 }
 
 .moto {
-    width: 206px;
+    width: 316px;
     height: auto;
     object-fit: cover;
 }
@@ -267,6 +250,7 @@ th,
 td {
     border: 1px dashed darkkhaki;
     border-collapse: separate;
+    padding: 5px;
 }
 
 th,
@@ -278,7 +262,7 @@ td {
     margin-top: 5px;
     margin-bottom: 30px;
     border-radius: 25%;
-    width: 236px;
+    width: 400px;
     height: auto;
     object-fit: cover;
 }
@@ -298,6 +282,7 @@ td {
 /* videos */ 
 
 .Videos {
+    padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center; /* Centra horizontalmente */

@@ -1,10 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
 @media screen and (max-width: 767px){
    
 }
 @media screen and (min-width: 768px) and (max-width:1023px){}
 @media screen and (min-width: 1024px){}
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
 
 body {
     background-image: url('CR7.jpg');
@@ -17,18 +16,24 @@ body {
 }
 
 .Bienvenida {
-    font-size: 25px; 
+    font-size: 40px; 
     display: block;
-    text-align: left;
-    margin: 50px auto 0 auto;
-    padding: 20px;
+    align-items: left;
+    margin: 60px;
+    margin-left: 120px;
+    padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 17 0 17px rgb(19, 45, 85);
-    max-width: 80%; 
+    max-width: 30%; 
 }
 
 .menuBotones {
-    width: 300px;
-    text-align: center;
-    margin: 20px auto; /* Mover el menú debajo del texto */
+    font-size: 22px; 
+    color: darkkhaki;
+    display: block;
+    align-items: left;
+    margin: 200px 0 70px 200px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #fff;
+    max-width: 30%; 
 }
