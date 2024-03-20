@@ -1,39 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
-@media screen and (max-width: 767px){
-   
+@media screen and (max-width: 768px) {
+    .Bienvenida {
+        font-size: 24px; /* Reducir tamaño de fuente para dispositivos móviles */
+        text-align: center; /* Centrar texto en dispositivos móviles */
+        margin: 30px auto; /* Ajustar márgenes para dispositivos móviles */
+        max-width: 80%; /* Ajustar ancho máximo para dispositivos móviles */
+    }
+
+    .menuBotones {
+        font-size: 18px; /* Reducir tamaño de fuente para dispositivos móviles */
+        text-align: center; /* Centrar texto en dispositivos móviles */
+        margin: 50px auto; /* Ajustar márgenes para dispositivos móviles */
+        max-width: 80%; /* Ajustar ancho máximo para dispositivos móviles */
+    }
 }
-@media screen and (min-width: 768px) and (max-width:1023px){}
-@media screen and (min-width: 1024px){}
 
 body {
     background-image: url('CR7.jpg');
-    background-size: 90%;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-repeat: no-repeat;
     color: rgb(19, 45, 85);
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .Bienvenida {
-    font-size: 40px; 
+    font-size: 40px;
     display: block;
     align-items: left;
     margin: 60px;
     margin-left: 120px;
     padding: 25px;
     border-radius: 10px;
-    max-width: 30%; 
+    max-width: 30%;
 }
 
 .menuBotones {
-    font-size: 22px; 
+    text-decoration: none;
+    font-size: 22px;
     color: darkkhaki;
     display: block;
     align-items: left;
-    margin: 200px 0 70px 200px;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px #fff;
-    max-width: 30%; 
+    margin: 100px 150px 70px;
 }
