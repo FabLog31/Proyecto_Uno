@@ -12,23 +12,24 @@
 </head>
 
 <body>
-    <div class="Bienvenida">
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                const NombreUsuario = prompt("¿Cuál es tu nombre?");
-                console.log("¡Nueva entrada de info!");
-                if (NombreUsuario === null || NombreUsuario === "") {
-                    document.querySelector('.Bienvenida').innerHTML = "¡Muy buen día! Te doy la bienvenida a mi página.";
-                } else {
-                    document.querySelector('.Bienvenida').innerHTML = "!Hola, " + NombreUsuario + "! Te doy la bienvenida a mi página.";
-                }
-            });
-        </script>
+    <div class="contenedor">
+        <div class="Bienvenida">
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const NombreUsuario = prompt("¿Cuál es tu nombre?");
+                    console.log("¡Nueva entrada de info!");
+                    if (NombreUsuario === null || NombreUsuario === "") {
+                        document.querySelector('.Bienvenida').innerHTML = "¡Muy buen día! Te doy la bienvenida a mi página.";
+                    } else {
+                        document.querySelector('.Bienvenida').innerHTML = "!Hola, " + NombreUsuario + "! Te doy la bienvenida a mi página.";
+                    }
+                });
+            </script>
+        </div>
+        <div class="menuBotones">
+            <a href="Proyecto_FLMt.html"> Pulsa aquí para continuar, por favor </a>
+        </div>
     </div>
-    <a href="Proyecto_FLMt.html" class="menuBotones"> Pulsa aquí para continuar, por favor </a>
-
-    
-
 </body>
 
 </html>
